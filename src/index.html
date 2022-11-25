@@ -16,7 +16,7 @@
     autocomplete="off"
     placeholder="Search images..."
   />
-  <button class="search-btn" type="submit">
+  <button class="search-btn" type="submit" onclick="this.blur()">
     <svg class="search-icon" width="20" height="20">
       <use href="./img/sprite.svg#search"></use>
     </svg>
@@ -26,7 +26,7 @@
   <!-- Картки зображень -->
 </div>
 <div class="load-more-wrap is-hidden">
-  <button type="button" class="load-more">Load more</button>
+  <button type="button" class="load-more" onclick="this.blur()">Load more</button>
 </div>
     <script src="./js/index.js" type="module"></script>
   </body>
